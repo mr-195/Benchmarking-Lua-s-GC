@@ -10,7 +10,7 @@ First clone lua's git repository and build it using the steps given on https://w
 
 ```bash
   cd lua-version-name
-  git clone <current repository>
+  git clone https://github.com/mr-195/Benchmarking-Lua-s-GC/
   python -m venv venv
   source venv/bin/activate
   pip install gprof2dot
