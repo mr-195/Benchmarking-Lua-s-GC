@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------
+Profile data file 'full.callgrind.out' (creator: callgrind-3.22.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 237792109
+Trigger: Program termination
+Profiled target:  ./executables/full (PID 36469, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+Ir                     
+--------------------------------------------------------------------------------
+1,171,248,339 (100.0%)  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir                    file:function
+--------------------------------------------------------------------------------
+161,676,260 (13.80%)  ./malloc/./malloc/malloc.c:_int_malloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+105,491,156 ( 9.01%)  ./malloc/./malloc/malloc.c:_int_free [/usr/lib/x86_64-linux-gnu/libc.so.6]
+105,448,977 ( 9.00%)  ???:luaV_execute [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 83,703,663 ( 7.15%)  ???:luaH_resize [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 82,950,132 ( 7.08%)  ???:luaH_newkey [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 77,060,080 ( 6.58%)  ???:propagatemark [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 63,104,926 ( 5.39%)  ./malloc/./malloc/malloc.c:malloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+ 59,261,783 ( 5.06%)  ./malloc/./malloc/malloc.c:malloc_consolidate [/usr/lib/x86_64-linux-gnu/libc.so.6]
+ 45,388,816 ( 3.88%)  ./malloc/./malloc/malloc.c:realloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+ 39,265,516 ( 3.35%)  ./malloc/./malloc/malloc.c:free [/usr/lib/x86_64-linux-gnu/libc.so.6]
+ 23,548,073 ( 2.01%)  ???:reallymarkobject [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 23,120,060 ( 1.97%)  ???:mainpositionTV.isra.0 [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 23,033,727 ( 1.97%)  ./malloc/./malloc/malloc.c:unlink_chunk.isra.0 [/usr/lib/x86_64-linux-gnu/libc.so.6]
+ 22,277,709 ( 1.90%)  ???:l_alloc [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 22,081,160 ( 1.89%)  ???:singlestep [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 20,834,138 ( 1.78%)  ???:luaM_malloc_ [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 20,619,272 ( 1.76%)  ???:sweepstep.constprop.0 [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 20,047,731 ( 1.71%)  ???:luaV_finishset [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 19,632,914 ( 1.68%)  ???:luaM_free_ [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 19,504,472 ( 1.67%)  ???:luaH_getint [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 18,586,148 ( 1.59%)  ???:luaM_realloc_ [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 15,434,300 ( 1.32%)  ???:luaH_realasize [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 14,822,598 ( 1.27%)  ???:luaH_free [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 12,626,733 ( 1.08%)  ???:luaC_newobj [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 10,613,971 ( 0.91%)  ???:luaH_get [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+ 10,408,763 ( 0.89%)  ???:luaH_newkey'2 [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+  9,020,564 ( 0.77%)  ???:freeobj [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+  9,015,315 ( 0.77%)  ???:luaH_new [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+  6,144,471 ( 0.52%)  ???:luaC_step [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+  5,472,442 ( 0.47%)  ???:luaO_ceillog2 [/home/shiva/Desktop/docs_ass/lua-5.4.7/gc/executables/full]
+  4,206,993 ( 0.36%)  ./malloc/./malloc/arena.c:free
+  4,003,788 ( 0.34%)  ./malloc/./malloc/malloc.c:alloc_perturb [/usr/lib/x86_64-linux-gnu/libc.so.6]
+  3,218,730 ( 0.27%)  ???:0x000000000010da30 [???]
+
+--------------------------------------------------------------------------------
+The following files chosen for auto-annotation could not be found:
+--------------------------------------------------------------------------------
+  ./malloc/./malloc/arena.c
+  ./malloc/./malloc/malloc.c
+
